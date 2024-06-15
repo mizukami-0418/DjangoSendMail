@@ -1,0 +1,9 @@
+<h1>home</h1>
+{% if messages %}
+<ul>
+    {% for message in messages %}
+    <li>{{ message }}</li>
+    {% endfor %}
+</ul>    
+{% endif %}
+<p><a href="{% url 'send_email' %}">メール送信画面へ</a></p>
