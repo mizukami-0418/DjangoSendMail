@@ -1,0 +1,2 @@
+# DjangoSendMail
+Djangoのsend_mailを使用する
